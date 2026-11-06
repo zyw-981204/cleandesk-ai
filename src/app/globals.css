@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-outfit), "Avenir Next", "Segoe UI", sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --color-paper: #f3eee4;
+  --color-ink: #1c2421;
+  --color-spruce: #1b3a34;
+  --color-spruce-deep: #10241f;
+  --color-foam: #e4f0ea;
+  --color-brass: #9a6232;
+  --color-brass-soft: #f6ead8;
+  --color-line: #e3d9c8;
+  --color-card: #fffdf8;
+  --color-muted: #5d675f;
+  --color-danger: #8d342c;
+  --color-ok: #1d6b45;
+}
+
+html {
+  background: var(--color-paper);
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top left, rgba(228, 240, 234, 0.9), transparent 32rem),
+    linear-gradient(180deg, #f7f3ea 0%, #f3eee4 40%, #efe7d8 100%);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #d5e7dc;
+}
+
+h1,
+h2,
+.font-serif {
+  font-family: var(--font-serif);
+}
