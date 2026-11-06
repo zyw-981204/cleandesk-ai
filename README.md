@@ -2,7 +2,7 @@
 
 CleanDesk is a portfolio demo of a booking assistant for a fictional cleaning company, **BrightHarbor Cleaning**. It is meant to show a client who already runs a Next.js and Postgres product that an AI agent can sit on top of their catalog: answer from company notes, price a visit with the same formula as the app, and call tools that refuse bad dates, unknown towns, and double-booked windows.
 
-Live demo: _not deployed yet. Add the Vercel URL here after the first deploy._
+Live demo: https://cleandesk-ai.vercel.app (password `harbor-demo`). The public demo runs in mock mode with in-memory data that may reset.
 
 The demo account password is `harbor-demo` unless `DEMO_PASSWORD` is set. Nothing in the dataset is a real person, address, or company.
 
